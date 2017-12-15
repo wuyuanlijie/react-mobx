@@ -1,0 +1,15 @@
+// .babelrc
+{
+  "presets": [
+    "env",
+    "stage-0",
+    "react"
+  ],
+  "plugins": [
+    // 添加对decorators的支持
+    "transform-decorators-legacy",
+    // 添加对react-hot-loader的支持
+    "react-hot-loader/babel"
+  ]
+ 
+}
