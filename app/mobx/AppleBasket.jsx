@@ -3,6 +3,7 @@ import { observer } from 'mobx-react';
 import AppleItem from './AppleItem';
 import '../styles/appleBasket.scss'
 
+// 当数组的和mobx有数据的关联的时候 我们需要为其添加@observer  app.js中将store传递到这个组件中
 @observer
 class AppleBasket extends Component {
   // 获取未吃苹果的组件

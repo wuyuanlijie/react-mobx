@@ -9,7 +9,16 @@
     // 添加对decorators的支持
     "transform-decorators-legacy",
     // 添加对react-hot-loader的支持
-    "react-hot-loader/babel"
+    "react-hot-loader/babel",
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ]
   ]
  
 }
